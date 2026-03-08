@@ -1,0 +1,44 @@
+.chat-btn {
+    background-color: #FFFFFF;
+    color: #27AE60;
+    border: 1px solid #27AE60;
+}
+
+.chat-btn:hover {
+    background-color: #f8f3f3;
+    color: #27AE60;
+    border: 1px solid #27AE60;
+}
+
+.call-btn {
+    background: linear-gradient(to right, #0ACEFE, #2699FB);
+    border: none;
+    transition: all .3s ease;
+}
+
+.call-btn:hover {
+    background: linear-gradient(to right, #0ebce8b7, #0b68babd);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries */
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+    max-width: 1170px;
+}
