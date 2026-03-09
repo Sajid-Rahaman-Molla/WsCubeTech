@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
 .chat-btn {
     background-color: #FFFFFF;
     color: #27AE60;
@@ -5,8 +11,8 @@
 }
 
 .chat-btn:hover {
-    background-color: #f8f3f3;
-    color: #27AE60;
+
+    color: rgb(0, 0, 0);
     border: 1px solid #27AE60;
 }
 
@@ -17,9 +23,45 @@
 }
 
 .call-btn:hover {
-    background: linear-gradient(to right, #0ebce8b7, #0b68babd);
+    color: rgb(0, 0, 0);
 }
 
+ul li {
+    list-style: none;
+}
+
+.banner-sec h1 {
+    font-size: 52px;
+    font-weight: 700;
+}
+.banner-sec .banner-text {
+    font-size: 22px;
+}
+.banner-sec ul li {
+    font-size: 18px;
+}
+
+.banner-sec h1 span {
+    background: url(../Assets/Home-page-images/banner-cross.png) no-repeat;
+    background-position: bottom;
+}
+.banner-btn button{
+    font-size: 18px;
+    font-weight: 500;
+}
+.form-heading-text {
+    color: #43505B;
+    font-size: 14px;
+}
+.form-heading h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+.register-form{
+    border: 1px solid rgba(161, 156, 156, 0.13);
+    border-radius: 8px;
+    box-shadow: 2px 3px 7px rgba(214, 211, 211, 0.479);
+}
 
 
 
