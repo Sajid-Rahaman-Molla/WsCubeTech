@@ -34,11 +34,28 @@
 
 
 /* media queries */
-.container,
-.container-lg,
-.container-md,
-.container-sm,
-.container-xl,
-.container-xxl {
-    max-width: 1170px;
+
+
+@media (min-width: 1400px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1170px;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .nav-right-button {
+        position: fixed;
+        bottom: 7px;
+        left: 0;
+        width: 100%;
+        justify-content: center;
+        margin: 0;
+    }
 }
