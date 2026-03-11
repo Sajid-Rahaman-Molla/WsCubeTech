@@ -112,6 +112,68 @@ ul li {
     color: #2699FB;
 }
 
+.countnumber {
+    font-size: 30px;
+    font-weight: 700;
+    color: #2699FB;
+}
+
+.count-text {
+    font-size: 18px;
+}
+
+.counter-sec {
+    background-color: #FFFFFF;
+}
+
+.cmn-card {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.13);
+    border-radius: 7px;
+    transition: 0.3s ease;
+}
+
+.cmn-card:hover {
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+    transform: translateY(-4px);
+}
+
+.career-sec .cardtitle {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.career-sec .para {
+    font-size: 16px;
+}
+
+.career-sec-heading {
+    font-size: 44px;
+    font-weight: 700;
+    max-width: 40%;
+}
+
+.career-text {
+    font-size: 18px;
+    max-width: 70%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* media queries */
 
@@ -143,9 +205,23 @@ ul li {
         margin: 0;
         z-index: 100;
     }
+
+    .career-sec-heading {
+        max-width: 60%;
+    }
 }
 
-@media (max-width: 767.98px) {}
+@media (max-width: 767.98px) {
+    .career-sec-heading {
+        font-size: 35px;
+        max-width: 80%;
+    }
+
+    .career-text {
+        max-width: 100%;
+        font-size: 16px;
+    }
+}
 
 @media (max-width: 575.98px) {
     .banner-sec h1 {
@@ -161,6 +237,23 @@ ul li {
         font-size: 16px;
     }
 
+    .countnumber {
+        font-size: 26px;
+        font-weight: 700;
+        color: #2699FB;
+    }
+
+    .count-text {
+        font-size: 16px;
+    }
+
+    .career-sec-heading {
+        font-size: 28px;
+        max-width: 100%;
+    }
+
+
+    
 }
 
 
