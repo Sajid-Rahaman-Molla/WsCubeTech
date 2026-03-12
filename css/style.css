@@ -9,6 +9,11 @@ a {
 }
 
 /* cmn-btn */
+h2,
+.heading-2 {
+    font-size: 44px;
+    font-weight: 700;
+}
 
 .cmn-btn {
     display: inline-block;
@@ -146,16 +151,58 @@ ul li {
     font-size: 16px;
 }
 
-.career-sec-heading {
-    font-size: 44px;
-    font-weight: 700;
-    max-width: 40%;
-}
 
 .career-text {
     font-size: 18px;
     max-width: 70%;
 }
+
+.career-sec-heading {
+    max-width: 40%;
+}
+
+.footer-sec {
+    background-color: #0A2540;
+}
+
+.footer-para {
+    color: rgba(255, 255, 255, 0.586);
+    font-size: 16px;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.586);
+    font-size: 15px;
+}
+
+.brand-text {
+    color: white;
+    text-decoration: underline;
+}
+
+.brand-text:hover {
+    color: rgb(226, 222, 222);
+}
+
+.faq-heading p {
+    font-size: 16px;
+}
+
+.accoordion-part {
+    max-width: 60%;
+}
+
+.faq-section {
+    background-color: #F7FAFF;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -187,12 +234,23 @@ ul li {
     .container-xxl {
         max-width: 1170px;
     }
+     .footer-para {
+        width: 75%;
+    }
 }
 
 
-@media (max-width: 1399.98px) {}
+@media (max-width: 1399.98px) {
+      .footer-para {
+        width: 75%;
+    }
+}
 
-@media (max-width: 1199.98px) {}
+@media (max-width: 1199.98px) {
+     .footer-para {
+        width: 75%;
+    }
+}
 
 @media (max-width: 991.98px) {
 
@@ -206,20 +264,31 @@ ul li {
         z-index: 100;
     }
 
-    .career-sec-heading {
-        max-width: 60%;
+
+    .accoordion-part {
+        max-width: 75%;
     }
+     .footer-para {
+        width: 75%;
+    }
+
 }
 
 @media (max-width: 767.98px) {
-    .career-sec-heading {
+    h2 {
         font-size: 35px;
-        max-width: 80%;
     }
 
     .career-text {
         max-width: 100%;
         font-size: 16px;
+    }
+
+    .accoordion-part {
+        max-width: 95%;
+    }
+    .footer-para {
+        width: 90%;
     }
 }
 
@@ -247,13 +316,16 @@ ul li {
         font-size: 16px;
     }
 
-    .career-sec-heading {
+    h2 {
         font-size: 28px;
         max-width: 100%;
     }
 
+    .accoordion-part {
+        max-width: 100%;
+    }
 
-    
+
 }
 
 
