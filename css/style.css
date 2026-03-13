@@ -196,8 +196,24 @@ ul li {
     background-color: #F7FAFF;
 }
 
+.tab-main-part .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: #F2F4F7;
+    color: #0A2134;
+    border-bottom: 2px solid #076fe5;
+}
 
+.tab-main-part .nav-link {
+    color: black;
+}
 
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollbar-hide {
+    scrollbar-width: none;
+}
 
 
 
@@ -234,20 +250,21 @@ ul li {
     .container-xxl {
         max-width: 1170px;
     }
-     .footer-para {
+
+    .footer-para {
         width: 75%;
     }
 }
 
 
 @media (max-width: 1399.98px) {
-      .footer-para {
+    .footer-para {
         width: 75%;
     }
 }
 
 @media (max-width: 1199.98px) {
-     .footer-para {
+    .footer-para {
         width: 75%;
     }
 }
@@ -268,7 +285,8 @@ ul li {
     .accoordion-part {
         max-width: 75%;
     }
-     .footer-para {
+
+    .footer-para {
         width: 75%;
     }
 
@@ -287,6 +305,7 @@ ul li {
     .accoordion-part {
         max-width: 95%;
     }
+
     .footer-para {
         width: 90%;
     }
